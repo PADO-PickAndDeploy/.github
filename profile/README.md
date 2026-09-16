@@ -97,36 +97,13 @@ PADO는 이 문제를 “개발과 서비스 런칭 사이의 배포 장벽”�
 
 ## Architecture
 
-PADO는 MSA 기반의 서버 컴포넌트와 프론트엔드 대시보드로 구성됩니다.
+PADO는 React Flow 기반 프론트엔드, API/Monitor/Network/Provision 계층, 그리고 AWS 클라우드 인스턴스를 연결하는 MSA 구조로 설계했습니다.
 
-```text
-User
-  |
-  v
-Frontend Dashboard
-  |
-  v
-API Server
-  |--------------------.
-  v                    |
-Provisioner Server     |
-  |                    |
-  v                    |
-Terraform / Ansible    |
-  |                    |
-  v                    |
-AWS Resources          |
-                       |
-Monitoring Server <----'
-  |
-  v
-WebSocket Logs / Metrics
+![PADO System Architecture](../assets/architecture/system-architecture.png)
 
-Network Server + Chisel Server
-  |
-  v
-DNS / Tunnel / Web Remote Access
-```
+서비스 운영 관점에서는 API Server, Provisioner, Monitoring Server, Chisel Tunnel, 메시지 큐, 로그/메트릭 스택이 연결됩니다. Chisel 터널을 통해 외부 클라우드 로그와 서비스 접근 경로를 안전하게 릴레이하고, DNS와 모니터링 기능도 같은 네트워크 계층 위에서 제공합니다.
+
+![PADO Service Architecture](../assets/architecture/service-architecture.png)
 
 ### Backend Components
 
