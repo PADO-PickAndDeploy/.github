@@ -7,11 +7,11 @@ PADO는 복잡한 클라우드 배포 과정을 Drag & Drop 기반의 시각적 
 
 캡스톤/해커톤/초기 스타트업처럼 DevOps 전담 인력이 부족한 팀이 `localhost`에 머무르지 않고 실제 서비스 URL, 모니터링, 배포 이력, 원격 접속까지 갖춘 실행 가능한 결과물을 만들 수 있도록 하는 것이 목표입니다.
 
-![PADO Dashboard](assets/demos/dashboard.gif)
+![PADO Dashboard](../assets/demos/dashboard.gif)
 
 ## Materials
 
-- [최종 발표자료 보기](assets/docs/pado-final-presentation.pdf)
+- [최종 발표자료 보기](../assets/docs/pado-final-presentation.pdf)
 - 기능별 시연 GIF는 아래 Demo Flow에서 확인할 수 있습니다.
 
 ## Why PADO
@@ -57,43 +57,43 @@ PADO는 이 문제를 “개발과 서비스 런칭 사이의 배포 장벽”�
 
 복잡한 YAML을 직접 작성하지 않고, 캔버스에서 컴포넌트를 배치하고 연결해 아키텍처를 설계합니다.
 
-![Drag and Drop Architecture Builder](assets/demos/drag-and-drop.gif)
+![Drag and Drop Architecture Builder](../assets/demos/drag-and-drop.gif)
 
 ### Zero Config
 
 컴포넌트별 인스턴스, 포트, 환경변수 등 배포 옵션을 화면에서 선택하고 적용합니다.
 
-![Component Settings](assets/demos/component-settings.gif)
+![Component Settings](../assets/demos/component-settings.gif)
 
 ### One-Click Deploy
 
 설계된 아키텍처를 기준으로 인프라 생성, 서버 설정, 애플리케이션 배포를 한 번에 실행합니다.
 
-![One-Click Deploy](assets/demos/one-click-deploy.gif)
+![One-Click Deploy](../assets/demos/one-click-deploy.gif)
 
 ### Auto DNS
 
 배포된 서비스를 IP 주소 대신 도메인으로 공유할 수 있도록 연결합니다.
 
-![Auto DNS](assets/demos/auto-dns.gif)
+![Auto DNS](../assets/demos/auto-dns.gif)
 
 ### Live Monitoring
 
 배포 상태, 서비스 로그, 노드 메트릭을 실시간으로 확인합니다.
 
-![Live Monitoring](assets/demos/monitoring.gif)
+![Live Monitoring](../assets/demos/monitoring.gif)
 
 ### Web Remote Desktop
 
 별도 SSH 클라이언트 없이 웹에서 서버에 접속합니다.
 
-![Web Remote Desktop](assets/demos/remote-desktop.gif)
+![Web Remote Desktop](../assets/demos/remote-desktop.gif)
 
 ### Deployment History
 
 배포 이력을 시간순으로 관리하여 변경 흐름과 복구 지점을 확인합니다.
 
-![Deployment History](assets/demos/deployment-history.gif)
+![Deployment History](../assets/demos/deployment-history.gif)
 
 ## Architecture
 
