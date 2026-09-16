@@ -7,8 +7,6 @@ PADO는 복잡한 클라우드 배포 과정을 Drag & Drop 기반의 시각적 
 
 캡스톤/해커톤/초기 스타트업처럼 DevOps 전담 인력이 부족한 팀이 `localhost`에 머무르지 않고 실제 서비스 URL, 모니터링, 배포 이력, 원격 접속까지 갖춘 실행 가능한 결과물을 만들 수 있도록 하는 것이 목표입니다.
 
-![PADO Dashboard](../assets/demos/dashboard.gif)
-
 ## Materials
 
 - [최종 발표자료 보기](../assets/docs/pado-final-presentation.pdf)
